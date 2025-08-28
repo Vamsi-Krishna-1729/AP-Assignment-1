@@ -1,6 +1,6 @@
 var map = L.map('map').setView([37.7, -122.4], 10);
 
-L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}{r}.{ext}', {
+L.tileLayer('https://a.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, ' +
                  '<a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
     subdomains: 'abcd',
